@@ -1,0 +1,39 @@
+{
+  "name": "vta-wdio-js-cucumber",
+  "version": "1.0.0",
+  "description": "WebDriverio and cucumber Javascript sample project",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "wdio ./config/wdio.chrome.conf.js",
+    "generate:allure-report": "allure generate ./allure-results --clean && allure open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nagi-a/vta-wdio-js-cucumber"
+  },
+  "keywords": [],
+  "author": "Nagi",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-export-default-from": "^7.8.3",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/register": "^7.9.0",
+    "junit-viewer": "^4.11.1",
+    "selenium-standalone": "^6.17.0",
+    "wdio-json-reporter": "^2.0.0",
+    "wdio-junit-reporter": "^0.4.4",
+    "wdio-selenium-standalone-service": "^0.0.12",
+    "@wdio/cucumber-framework": "^6.0.16",
+    "@wdio/local-runner": "^6.0.18",
+    "@wdio/cli": "^6.0.18",
+    "@wdio/sync": "^6.0.18",
+    "@wdio/dot-reporter": "^6.0.16",
+    "@wdio/spec-reporter": "^6.0.16",
+    "@wdio/allure-reporter": "^6.0.14",
+    "allure-commandline": "^2.13.0",
+    "chai": "^4.2.0",
+    "log4js": "^6.2.0"
+  }
+}
