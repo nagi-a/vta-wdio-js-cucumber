@@ -34,6 +34,6 @@
     "@wdio/allure-reporter": "^6.0.14",
     "allure-commandline": "^2.13.0",
     "chai": "^4.2.0",
-    "log4js": "^6.2.0"
+    "log4js": "^6.4.0"
   }
 }
